@@ -19,6 +19,11 @@ class MainActivity : AppCompatActivity() {
 
     private val viewModel by viewModel<MainViewModel>()
 
+    override fun onResume() {
+        super.onResume()
+        //load data
+        viewModel.getAllProducts()
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -50,9 +55,6 @@ class MainActivity : AppCompatActivity() {
                 adapter.notifyDataSetChanged()
             }
         })
-
-        //load data
-        viewModel.getAllProducts()
     }
 
     private fun setupRecycler() {
