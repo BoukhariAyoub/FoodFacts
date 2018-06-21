@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Foodfacts</string>
+    <string name="product_code_hint">Code du Produit</string>
+    <string name="search_history_title">Historique de mes recherches</string>
+    <string name="product_not_found_message">Le Produit est introuvable</string>
+    <string name="network_exception_message">Il n\'y a pas de connexion</string>
+    <string name="unknown_error">Une erreur inconnue est survenue</string>
+    <string name="energy_placeholder">%s Kcal</string>
+    <string name="ingredient_title">Ingredients</string>
+    <string name="energy_title">Valeur énérgetique</string>
+    <string name="loading_text">Chargement</string>
+    <string name="invalid_search_input">Veuillez remplir le champs de recherche</string>
+</resources>
